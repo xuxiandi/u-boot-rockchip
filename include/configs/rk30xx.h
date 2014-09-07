@@ -67,7 +67,7 @@ Revision:       1.00
  */
 /* base definition of ram addr & size */
 //size should be 2^x.(like 64m/128m/256m/512m...)
-#define RAM_PHY_SIZE            0x04000000
+#define RAM_PHY_SIZE            0x40000000
 #define RAM_PHY_START           0x60000000
 #define RAM_PHY_END             (RAM_PHY_START + RAM_PHY_SIZE)
 
